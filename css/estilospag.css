@@ -1,0 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: coral;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 20em;
+}
+div.logo{
+    text-align: left;
+}
+div.ICFS{
+    text-align: center;
+    display: inline;
+}
+.contenedor{
+    width: 100%;
+}
+aside{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 750px;
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+
+}
+aside li{
+    list-style-type: none;
+    padding: 4%;
+}
+
+section.articles{ 
+    border: 2px solid;
+    height: 500px;
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    column-count: 3;
+    column-rule: 2px rgb(3, 3, 3) solid;
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    
+}
+article{
+    font-size: larger;
+
+}
+
+nav.ListaVerticalderecha{
+    background-color: black;
+    color: white;
+    height: 750px ;
+    width: 20%;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+footer div{
+    background-color:coral  ;
+    color: black;
+    text-align: center;
+    clear: both;
+    padding: 20px;
+    margin-top: 42%;
+    word-spacing: 50em;
+}
+img.logoFoto{
+    height: 60px;
+    width: 60px;
+}
+img.Foto{
+    height: 200px;
+    width: 150px;
+}
+img.Foto2{
+    height: 200px;
+    width: 200px;
+    margin-top: 50%;
+}
+div.Navderecha{
+    margin-top: 5%;
+}
